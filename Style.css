@@ -1,0 +1,62 @@
+body * {
+    box-sizing: border-box;
+
+}
+
+
+#Feed {
+    position: absolute;
+    width: 60%;
+    height: 90%;
+    bottom: 0;
+    right: 10%;
+
+    background-color: red;
+
+}
+
+#Userinfo {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 10%;
+    left: 5%;
+
+    background-color: #54ff4e;
+
+
+}
+
+
+
+
+@media screen and (max-device-width: 500px) {
+    body {
+        background-color: #e6dc80;
+        padding: 0 10px;
+    }
+
+
+    #Feed {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+
+        padding: 20px;
+
+        background-color: #f759ff;
+
+    }
+
+    #Userinfo {
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        left: 0;
+
+        background-color: #ff8959;
+    }
+
+}
